@@ -1,0 +1,178 @@
+@import url("jquery-ui.min.css");
+@import url("jquery-ui-1.10.3.custom.css");
+
+th { text-align: left; }
+
+.ui-menu-item { float: left; width: auto !important; }
+
+.clear, .clearfix:after { content: ""; clear: both; display: table; }
+
+label.side {
+	
+	width: 200px;
+	float: left;
+	padding-top: 3px;
+	
+}
+
+.side-input {
+	
+	float: left;
+	padding: 3px 5px;
+	font: 14px/20px normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 50%;
+	
+}
+
+fieldset { border: 0px; padding: 10px 25px 15px 25px; margin: 0 0 5px 0; }
+fieldset legend { margin: 0 20px; padding: 0 10px; }
+fieldset 
+
+::selection { background-color: #42c0ff; color: white; }
+::-moz-selection { background-color: #42c0ff; color: white; }
+
+#stopwatch {
+	
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+	
+}
+
+* { margin: 0; padding: 0; outline: none; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 14px/20px normal "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #42c0ff;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#body {
+	margin: 0 15px 0 15px;
+}
+
+p.footer {
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+#container {
+	margin: 10px auto;
+	width: 70%;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+#bland_container {
+	margin: 10px auto;
+	width: 70%;
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.calendar td.week {
+	
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background: #000;
+	color: #FFF;
+	
+}
+
+.calendar td {
+	
+	width: 85px;
+	height: 75px;
+	border: 1px solid black;
+	vertical-align: top;
+	
+}
+
+.calendar td.other-month {
+	
+	background: #000000;
+	
+}
+
+	.calendar td span {
+		
+		color: #000000;
+		font-weight: bold;
+		
+	}
+	
+	.calendar td span.highlight {
+		
+		color: #FFFFFF;
+		font-weight: bold;
+		background: #00B3FF;
+		padding: 2px 5px;
+		border-radius: 50%;
+		margin: 2px 0 0 2px;
+		display: inline-block;
+		
+	}
+	
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left; width: 50% !important; }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000; text-align: left }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:auto }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+.ui-multiselect-hasfilter ul { position:relative; top:2px }
+.ui-multiselect-filter { float:left; margin-right:10px; font-size:11px }
+.ui-multiselect-filter input { width:100px; font-size:10px; margin-left:5px; height:15px; padding:2px; border:1px solid #292929; -webkit-appearance:textfield; -webkit-box-sizing:content-box; }
